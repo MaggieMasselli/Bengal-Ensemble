@@ -5,7 +5,8 @@ filename,Filename,,,,,
 format,Format,,,,,
 museum_object_number,Museum Object Number,,,,,
 description,Description,,,,DCTERMS.description,description
-creator,Creator,,,,DCTERMS.creator,creator
+subjects,Subjects,true,,,DCTERMS.subject,keywords
+museum,Museum,,,,,
 date,Date,,,,DCTERMS.date,dateCreated
 inscription,Inscription,,,,,
 description_lcnaf,Description (LCNAF),,,,,,
@@ -14,7 +15,6 @@ latitude,Latitude,,,,,
 longitude,Longitude,,,,,
 birth_date,Birth Date,,,,,
 death_date,Death Date,,,,,
-visual_descriptors,Visual Descriptors,true,,,,
 website,Website,,true,,,
 lcnaf,LCNAF,,,,,
 iiif_manifest,IIIF Manifest,,true,,,
