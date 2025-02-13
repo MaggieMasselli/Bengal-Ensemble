@@ -1,15 +1,20 @@
-field,display_name,browse_link,external_link
-title,Title,
-creator,Creator,
-date,Date Created,
-description,Description,
-subject,Subjects,true
-location,Location
-latitude,Latitude
-longitude,Longitude
-source,Source
-identifier,Source Identifier,,
-type,Type,
-format,Format,
-rights,Rights,
-rightsstatement,Rights Statement,,true
+field,display_name,browse_link,external_link,dc_map,schema_map
+objectid,Object ID,,,,,
+title,Title,,,,DCTERMS.title,headline
+filename,Filename,,,,,
+format,Format,,,,,
+museum_object_number,Museum Object Number,,,,,
+description,Description,,,,DCTERMS.description,description
+creator,Creator,,,,DCTERMS.creator,creator
+date,Date,,,,DCTERMS.date,dateCreated
+inscription,Inscription,,,,,
+description_lcnaf,Description (LCNAF),,,,,,
+location,Location,true,,,DCTERMS.spatial,contentLocation
+latitude,Latitude,,,,,
+longitude,Longitude,,,,,
+birth_date,Birth Date,,,,,
+death_date,Death Date,,,,,
+visual_descriptors,Visual Descriptors,true,,,,
+website,Website,,true,,,
+lcnaf,LCNAF,,,,,
+iiif_manifest,IIIF Manifest,,true,,,
