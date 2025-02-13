@@ -1,16 +1,16 @@
-field,display_name,browse_link,external_link,dc_map,schema_map,
+field,display_name,browse_link,external_link,dc_map,schema_map
 objectid,Object ID,,,,,
-title,Title,,,,DCTERMS.title,headline,
+title,Title,,,,DCTERMS.title,headline
 filename,Filename,,,,,
 format,Format,,,,,
 museum_object_number,Museum Object Number,,,,,
-description,Description,,,,DCTERMS.description,description,
-subjects,Subjects,true,,,DCTERMS.subject,keywords,
+description,Description,,,,DCTERMS.description,description
+subjects,Subjects,true,,,DCTERMS.subject,keywords
 museum,Museum,,,,,
-date,Date,,,,DCTERMS.date,dateCreated,
+date,Date,,,,DCTERMS.date,dateCreated
 inscription,Inscription,,,,,
 description_lcnaf,Description (LCNAF),,,,,,
-location,Location,true,,,DCTERMS.spatial,contentLocation,
+location,Location,true,,,DCTERMS.spatial,contentLocation
 latitude,Latitude,,,,,
 longitude,Longitude,,,,,
 birth_date,Birth Date,,,,,
